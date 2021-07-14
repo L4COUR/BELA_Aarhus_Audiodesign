@@ -87,6 +87,18 @@ Når Run-knappen er grøn og drejer rundt så virker systemet korrekt og du bør
 
 Hvis du kan køre sinetone eksempel projektet og du høre en tone komme fra boardet, virker boardet som det skal,
 
+## Step 4: turning off BELA
+
+Det er vigtigt at man [slukker for BELA boardet](https://learn.bela.io/using-bela/bela-techniques/shutting-down-bela/) på den rigtige måde for ikke at ødelægge boardet.
+
+på boardet er en dedikeret sluk knap for boardet
+
+![](https://learn.bela.io/assets/images/using-bela/bela-techniques/shutdown-button-cape.jpg)
+
+Boardet kan også slukkes fra BELA's IDE
+
+![](https://learn.bela.io/assets/images/using-bela/bela-techniques/shutdown-button.png)
+
 
 
 ## sources
