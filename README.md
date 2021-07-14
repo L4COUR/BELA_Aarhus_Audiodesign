@@ -10,6 +10,27 @@ Der findes mange microcontrollers der kan anvendes i en lydlig interaktiv sammen
 
 BELA beskriver latency som "Action-to-sound" og sammenligner deres latency på under 1 ms med andre platforme som arduino-to-Max eller Arduino-to-RaspberryPi, [her](https://www.nime.org/proceedings/2016/nime2016_paper0005.pdf) kan du læse mere om Latency og dets betydning i interaktive lyd konfigurationer
 
+Den lave latency skyldes måde hvorpå BELA's software er opsat på. Den lydlige del af BELA er højest prioriteret gennem deres specialbyggede audioprocesserings miljø baseret på XenMai real-time Linux udvidelse, der kan læses mere om [her](https://bela.io/about)
+
+![](https://bela.io/images/bela_software.png)
+
+## Hardware
+
+![](https://bela.io/images/bela_comparison.png)
+
+BELA består af 8 kanaler af 16-bit analoge I/O, 16 digitale I/O, Stereo audio I/O, og 2 indbyggede højtaler forstærkere.
+
+## Projekter lavet med BELA
+
+- https://blog.bela.io/2021/05/27/morph-gestural-interface-kuntay-seferoglu/
+  - ![](https://blog.bela.io/assets/images/morph/morph_t.jpg)
+- https://blog.bela.io/2018/09/14/Giraf-Bela-Hjalte-Bested-Moller/
+  - ![](https://blog.bela.io/assets/images/giraf/insides.jpg)
+- https://blog.bela.io/2021/07/01/case-western-university-embedded-computing/
+  - ![](https://blog.bela.io/assets/images/case-course/breadboard.jpeg)
+
+## Kom igang med BELA
+
 
 
 ## sources
