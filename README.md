@@ -7,7 +7,7 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 - [Hvorfor anvende BELA?](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hvorfor-anvende-bela)
 - [Hardware](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hardware)
 - [Projekter lavet med BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#projekter-lavet-med-bela)
-- [Kom igang med BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#kom-igang-med-bela)
+- [Setup BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#kom-igang-med-bela)
 
 ## Hvorfor anvende BELA?
 
@@ -27,16 +27,65 @@ Den lave latency skyldes måde hvorpå BELA's software er opsat på. Den lydlige
 
 BELA består af 8 kanaler af 16-bit analoge I/O, 16 digitale I/O, Stereo audio I/O, og 2 indbyggede højtaler forstærkere.
 
+![](https://bela.io/images/products/bela.png)
+
 ## Projekter lavet med BELA
 
 - https://blog.bela.io/2021/05/27/morph-gestural-interface-kuntay-seferoglu/
   - ![](https://blog.bela.io/assets/images/morph/morph_t.jpg)
+  
 - https://blog.bela.io/2018/09/14/Giraf-Bela-Hjalte-Bested-Moller/
+
   - ![](https://blog.bela.io/assets/images/giraf/insides.jpg)
+
 - https://blog.bela.io/2021/07/01/case-western-university-embedded-computing/
+
   - ![](https://blog.bela.io/assets/images/case-course/breadboard.jpeg)
 
-## Kom igang med BELA
+- BELA har indtil videre været anvendt til at bygge
+
+  - musik instrumenter
+  - kinetiske skulpture
+  - wearable devices
+  - interactive lyd installationer
+  - effekt bokse
+  - sensor eksperimenter
+  -  papir kredsløb
+  - e-tekstiler
+
+  ... og meget meget mere
+
+## Setup BELA
+
+følg BELA's egen guide til at komme igang [her](https://learn.bela.io/get-started-guide/quick-start/)
+
+### Step 1: Assemble and Plug in your hardware
+
+- Når du har forbundet BELA med computer med USB kabel skal du vente ca. 40 sekunder mens BELA boomer op. Når BELA er klar vil dens blå LED blinke i et hjerteslagsbanken.
+- Forbind headphones eller højtaler til BELA's Stereo out connecter med et audio adapter kabel.
+
+### Step 2: Load BELA IDE
+
+Audiodesigneren vil måske fra tidligere forløb på kurserne kende til arduino's IDE hvori arduino kode skrives og compiles. BELA's IDE køre gennem webbrowseren (anbefalet chrome) idet BELA genkendes af computeren som en USB netværks device.
+
+- tjek om BELA's IDE er klar ved at åbne en webbrowser, og gå til "Http://bela.local" hvis systemet er klar vil du se denne side.
+  - ![](https://learn.bela.io/assets/images/get-started-guide/ide_screenshot.png)
+- Hvis siden ikke loader skal du installere en driver se instruktioner for dit styresystem
+  - [Max OS X](https://learn.bela.io/using-bela/bela-techniques/network-setup/#mac-os-x)
+  - [Linux](https://learn.bela.io/using-bela/bela-techniques/network-setup/#linux)
+  - [Windows](https://learn.bela.io/using-bela/bela-techniques/network-setup/#windows)
+
+## Step 3: Build an example project
+
+Når IDE er ladet i browser, åben eksempler ved at trykke på el-pæren. klik på eksemplet kaldet [sinetone](https://learn.bela.io/tutorials/c-plus-plus/fundamentals/sinetone/). Når eksemplet compiles vil det producere en 440Hz sinus tone. Koden kan ses i editoren, såvel som i projekts filer.
+
+I toolbaren i den nederste del af skærmen, klik "Run". Hvis det er første gang du kører et projekt gennem BELA kan der godt gå et minuts tid hvor boardet skal opsætte nogle folder etc forend sinus tonen høres.
+
+![](https://learn.bela.io/assets/images/get-started-guide/ide_runbutton.gif)
+
+Når Run-knappen er grøn og drejer rundt så virker systemet korrekt og du bør høre en tone komme ud af audio outputet fra BELA.
+
+Hvis du kan køre sinetone eksempel projektet og du høre en tone komme fra boardet, virker boardet som det skal,
 
 
 
