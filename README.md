@@ -8,6 +8,7 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 - [Hardware](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hardware)
 - [Projekter lavet med BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#projekter-lavet-med-bela)
 - [Setup BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#kom-igang-med-bela)
+- [BELA and Pure Data]()
 
 ## Hvorfor anvende BELA?
 
@@ -68,7 +69,7 @@ følg BELA's egen guide til at komme igang [her](https://learn.bela.io/get-start
 
 Audiodesigneren vil måske fra tidligere forløb på kurserne kende til arduino's IDE hvori arduino kode skrives og compiles. BELA's IDE køre gennem webbrowseren (anbefalet chrome) idet BELA genkendes af computeren som en USB netværks device.
 
-- tjek om BELA's IDE er klar ved at åbne en webbrowser, og gå til "Http://bela.local" hvis systemet er klar vil du se denne side.
+- tjek om BELA's IDE er klar ved at åbne en webbrowser, og gå til "http://bela.local" hvis systemet er klar vil du se denne side.
   - ![](https://learn.bela.io/assets/images/get-started-guide/ide_screenshot.png)
 - Hvis siden ikke loader skal du installere en driver se instruktioner for dit styresystem
   - [Max OS X](https://learn.bela.io/using-bela/bela-techniques/network-setup/#mac-os-x)
@@ -98,6 +99,8 @@ på boardet er en dedikeret sluk knap for boardet
 Boardet kan også slukkes fra BELA's IDE
 
 ![](https://learn.bela.io/assets/images/using-bela/bela-techniques/shutdown-button.png)
+
+## BELA and Pure Data
 
 
 
