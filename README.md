@@ -75,7 +75,7 @@ Audiodesigneren vil måske fra tidligere forløb på kurserne kende til arduino'
   - [Linux](https://learn.bela.io/using-bela/bela-techniques/network-setup/#linux)
   - [Windows](https://learn.bela.io/using-bela/bela-techniques/network-setup/#windows)
 
-## Step 3: Build an example project
+### Step 3: Build an example project
 
 Når IDE er ladet i browser, åben eksempler ved at trykke på el-pæren. klik på eksemplet kaldet [sinetone](https://learn.bela.io/tutorials/c-plus-plus/fundamentals/sinetone/). Når eksemplet compiles vil det producere en 440Hz sinus tone. Koden kan ses i editoren, såvel som i projekts filer.
 
@@ -87,7 +87,7 @@ Når Run-knappen er grøn og drejer rundt så virker systemet korrekt og du bør
 
 Hvis du kan køre sinetone eksempel projektet og du høre en tone komme fra boardet, virker boardet som det skal,
 
-## Step 4: turning off BELA
+### Step 4: turning off BELA
 
 Det er vigtigt at man [slukker for BELA boardet](https://learn.bela.io/using-bela/bela-techniques/shutting-down-bela/) på den rigtige måde for ikke at ødelægge boardet.
 
