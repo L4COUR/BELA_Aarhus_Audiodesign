@@ -146,7 +146,7 @@ I det tomme Pd BELA projekt eksisterer kun en fil kaldet **_main.pd** Din hovede
 
 [Pure Data Reference Card](https://puredata.info/docs/tutorials/pd-refcard)
 
-### Audio input og output kanaler
+### Audio I/O
 ![](https://learn.bela.io/assets/images/using-bela/pd-pass-through.png)
 
 - [adc~ 1 2] = BELA's stereo inputs 
@@ -180,7 +180,7 @@ Enhver digitalPin kan fungere som både et input og et output, hvilket betyder a
 
 Når BELA er forbundet via USB med din PC/Mac findes den som MIDI device, og kan tilgåes via en DAW og kan således anvendes til at kontrollerer VSTs etc.
 
-### Sensor processering i Pd
+### Sensor processing in Pd
 ![Insert using pd objects to prcess sensor data figures](./media/BELAPDSensorprocessing.png)
 
 - Smoothing
