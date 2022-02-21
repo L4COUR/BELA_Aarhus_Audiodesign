@@ -4,12 +4,13 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 
 ### Indhold
 
-- [Hvorfor anvende BELA?](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hvorfor-anvende-bela)
-- [Hardware](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hardware)
-- [Projekter lavet med BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#projekter-lavet-med-bela)
-- [Setup BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#setup-bela)
-- [Voltage Tolerances](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#voltage-tolerances)
-- [BELA Update & Troubleshooting](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#bela-update--troubleshooting)
+- Grundlæggende forståelse af BELA
+	- [Hvorfor anvende BELA?](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hvorfor-anvende-bela)
+	- [Hardware](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hardware)
+	- [Projekter lavet med BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#projekter-lavet-med-bela)
+	- [Setup BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#setup-bela)
+	- [Voltage Tolerances](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#voltage-tolerances)
+	- [BELA Update & Troubleshooting](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#bela-update--troubleshooting)
 - [BELA and Pure Data](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#bela-and-pure-data)
 	- [Libpd: Afvikling af Pd på BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#libpd-afvikling-af-pd-p%C3%A5-bela)
 	- [Creating a Pd Project](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#creating-a-pd-project)
