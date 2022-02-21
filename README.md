@@ -22,6 +22,10 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 	- [Abstractions](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#abstractions)
 - [Cyclone on BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#cyclone-on-bela)
 	- [Installation af Cyclone på BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#installation-af-cyclone-p%C3%A5-bela)
+- [BELA and Max/MSP]()
+	- [UDP/OSC Communication]()
+	- [BELA to Max/MSP]()
+	- [Max/MSP to BELA]()
 
 ## Hvorfor anvende BELA?
 
@@ -236,7 +240,50 @@ Selvom mange af de objekter der findes i Pd har tilsvarende objekter i Max/MSP, 
 
 I forhold til yderligere guides til installation af andre externals tjek [BELA's Forum](https://forum.bela.io/d/101-compiling-puredata-externals/100)  
 
-## sources
+## BELA and Max/MSP
+![](./media/BELAMAXMSP.png)
+
+Hvis ikke Pd cyclone's utallige objekter er tilstrækkeligt, kan man forbinde Max/MSP via UDP/OSC fra en computer på samme netværk som BELA boardet. Ulempen ved en sådan afvikling;
+
+- "Action to Sound" vil forøges afhængig af netværkets hastighed, resultere i ringere latency.
+- Lydobjektet eller prototypen mister selvstændighed og mobilitet.
+- Debugging bliver sværere.
+
+Fordelen ved en sådan afvikling;
+
+- Adgang til Max/MSPs endeløse funktionalitet og grafisk interfaces
+- Anvende tidligere erfaring med Max/MSP
+
+### UDP/OSC Communication
+UDP og OSC kommunikations protokollerne tillader anvendelsen af en normal ethernet netværks forbindelse til at sende information mellem computere og andre interaktive medie systemer. pga. af dets hastighed og tilgængelighed i næsten enhver ny computer er den en god kandidat til at kunne erstatte MIDI interfaces i mange tilfælde.
+
+OSC er en forkortelse for Open Sound Control. I de fleste tilfælde er OSC endnu et lag af UDP forbindelser som en standardiseret måde at overføre information mellem systemer.
+
+[![](https://github.com/L4COUR/PlantVoiceBox/raw/main/media/OSC-Communication.png)](https://github.com/L4COUR/PlantVoiceBox#osc-connection)
+
+- UDP er i stand til at overføre flere blokke af data via ethernet forbindelse. 
+- Måden hvorpå data er organiseret sker gennem OSC som et yderligere lag.
+
+### BELA to Max/MSP
+infrastruktur for at sende data fra BELA til Max/MSP
+
+1. Følg guide for at lave et Pd project
+2. Rediger **_main.pd** til at sende data via **netsend** objektet
+![](./media/_main.png)
+3. Tjek BELA's ip addresse i netværks systemindstillinger er den samme som i **connect** beskeden til **netsend** objektet.
+![](./media/Netværksindstillinger.png)
+4. lav en Max patcher til at modtage data via **udpreceive** objektet
+![](./media/PdtoMax.png)
+5. Byg et hardware setup med to analoge input componenter og forbind deres data kabler til analog in pin 0 og 1 på BELA boardet.
+![](https://learn.bela.io/assets/images/fritzing/pd//analog-input.png)
+
+### Max/MSP to BELA
+infrastruktur for at sende data fra Max/MSP til BELA
+
+1. Følg guide for at lave et Pd project
+2. 
+
+## Sources
 
 - [PD for Max/MSP Users](https://puredata.info/docs/tutorials/PdForMaxUsers)
 - [BELA Quickstart](https://learn.bela.io/get-started-guide/quick-start/)
@@ -245,3 +292,4 @@ I forhold til yderligere guides til installation af andre externals tjek [BELA's
 - [BELA Pure Data Externals](https://forum.bela.io/d/101-compiling-puredata-externals/98)
 - [Send/receive Data from Running PD on BELA](https://github.com/jarmitage/bela.pd)
 - [Miller Puckette Max/MSP & Pure Data](https://futureofcoding.org/episodes/047.html)
+- [UDP & OSC kommunikation](https://frieder-weiss.de/eyecon/Manual/udp-osc.htm)
