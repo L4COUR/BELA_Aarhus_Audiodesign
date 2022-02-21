@@ -22,10 +22,11 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 	- [Abstractions](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#abstractions)
 - [Cyclone on BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#cyclone-on-bela)
 	- [Installation af Cyclone på BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#installation-af-cyclone-p%C3%A5-bela)
-- [BELA and Max/MSP]()
-	- [UDP/OSC Communication]()
-	- [BELA to Max/MSP]()
-	- [Max/MSP to BELA]()
+- [BELA and Max/MSP](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#bela-and-maxmsp)
+	- [UDP/OSC Communication](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#udposc-communication)
+	- [BELA to Max/MSP](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#bela-to-maxmsp)
+	- [Max/MSP to BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#maxmsp-to-bela)
+- [Sources](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#sources)
 
 ## Hvorfor anvende BELA?
 
