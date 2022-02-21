@@ -265,7 +265,10 @@ OSC er en forkortelse for Open Sound Control. I de fleste tilfælde er OSC endnu
 - Måden hvorpå data er organiseret sker gennem OSC som et yderligere lag.
 
 ### BELA to Max/MSP
-infrastruktur for at sende data fra BELA til Max/MSP
+Infrastruktur for at sende data fra BELA til Max/MSP. Se [video demonstration](https://vimeo.com/680066219?activityReferer=1)
+
+<iframe src="https://player.vimeo.com/video/680066219?h=30e98a1f75" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/680066219">BELAtoMax</a> from <a href="https://vimeo.com/l4cour">La Cour</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 1. Følg guide for at lave et Pd project
 2. Rediger **_main.pd** til at sende data via **netsend** objektet
