@@ -207,8 +207,6 @@ Selvom mange af de objekter der findes i Pd har tilsvarende objekter i Max/MSP, 
 
 ### Installation af Cyclone på BELA
 
-![](./media/install-cyclone.gif)
-
 1. Opret **pd-externals** folder på BELA, og downloade følgende filer der er nødvendige for at kunne compile cyclone på Bela via følgende Terminal/CMD commands
 `git clone https://github.com/giuliomoro/pure-data &&\`
 `cd pure-data &&\`
