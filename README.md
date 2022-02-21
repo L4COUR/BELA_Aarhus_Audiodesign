@@ -8,7 +8,19 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 - [Hardware](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hardware)
 - [Projekter lavet med BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#projekter-lavet-med-bela)
 - [Setup BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#kom-igang-med-bela)
+- [Voltage Tolerances]()
+- [BELA Troubleshooting]()
 - [BELA and Pure Data]()
+	- [Libpd: Afvikling af Pd på BELA]()
+	- [Creating a Pd Project]()
+	- [Audio I/O]()
+	- [Analog I/O]()
+	- [Digital I/O]()
+	- [MIDI I/O]()
+	- [Sensor processing in Pd]()
+	- [Abstractions]()
+- [Cyclone on BELA]()
+	- [Installation af Cyclone på BELA]()
 
 ## Hvorfor anvende BELA?
 
