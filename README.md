@@ -263,6 +263,11 @@ OSC er en forkortelse for Open Sound Control. I de fleste tilfælde er OSC endnu
 - UDP er i stand til at overføre flere blokke af data via ethernet forbindelse. 
 - Måden hvorpå data er organiseret sker gennem OSC som et yderligere lag.
 
+Pure Data kan kun forbindes med UDP med mindre man installerer externals der gør det muligt at modtage og sende OSC. Pd Netsend/Netreceive objekter anvender default en ældre udgave af UDP kaldet [TCP/FUDI](https://en.wikipedia.org/wiki/FUDI).
+
+Som de følgende eksempler viser kan data sendes fra BELA til Max/MSP vha. UDP. Dog er dette ikke tilfældet i forhold til at sende data den anden vej. Hvis vi ikke installerer externals til Pd, kan Max/MSP kun sende beskeder via TCP/FUDI protokollen
+![](./media/fromMaxtoPd.png) 
+
 ### BELA to Max/MSP
 Infrastruktur for at sende data fra BELA til Max/MSP. Se [video demonstration](https://vimeo.com/680066219?activityReferer=1)
 
@@ -298,3 +303,4 @@ infrastruktur for at sende data fra Max/MSP til BELA
 - [Send/receive Data from Running PD on BELA](https://github.com/jarmitage/bela.pd)
 - [Miller Puckette Max/MSP & Pure Data](https://futureofcoding.org/episodes/047.html)
 - [UDP & OSC kommunikation](https://frieder-weiss.de/eyecon/Manual/udp-osc.htm)
+- [PdPortNPM.js](https://npm.io/package/port)
