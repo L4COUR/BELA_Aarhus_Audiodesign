@@ -1,14 +1,14 @@
 #N canvas 114 138 618 359 12;
-#X obj 193 269 dac~ 3 4 5 6 7 8 9 10;
-#X obj 51 120 phasor~;
-#X obj 91 146 phasor~;
-#X obj 132 171 phasor~;
-#X obj 173 196 phasor~;
-#X obj 214 121 phasor~;
-#X obj 255 146 phasor~;
-#X obj 296 172 phasor~;
-#X obj 337 195 phasor~;
-#X obj 51 45 netreceive 9999;
+#X obj 193 311 dac~ 3 4 5 6 7 8 9 10;
+#X obj 51 134 phasor~;
+#X obj 91 160 phasor~;
+#X obj 132 185 phasor~;
+#X obj 173 210 phasor~;
+#X obj 214 135 phasor~;
+#X obj 255 160 phasor~;
+#X obj 296 186 phasor~;
+#X obj 337 212 phasor~;
+#X obj 51 35 netreceive 9999;
 #X obj 51 78 route /led1 /led2 /led3 /led4 /led5 /led6 /led7 /led8
 /connection;
 #X obj 378 145 print Max PD is connected;

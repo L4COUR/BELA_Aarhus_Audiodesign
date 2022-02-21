@@ -255,12 +255,10 @@ Fordelen ved en sådan afvikling;
 - Adgang til Max/MSPs endeløse funktionalitet og grafisk interfaces
 - Anvende tidligere erfaring med Max/MSP
 
-### UDP/OSC Communication
+### UDP/OSC & TCP/FUDI Communication
 UDP og OSC kommunikations protokollerne tillader anvendelsen af en normal ethernet netværks forbindelse til at sende information mellem computere og andre interaktive medie systemer. pga. af dets hastighed og tilgængelighed i næsten enhver ny computer er den en god kandidat til at kunne erstatte MIDI interfaces i mange tilfælde.
 
 OSC er en forkortelse for Open Sound Control. I de fleste tilfælde er OSC endnu et lag af UDP forbindelser som en standardiseret måde at overføre information mellem systemer.
-
-[![](https://github.com/L4COUR/PlantVoiceBox/raw/main/media/OSC-Communication.png)](https://github.com/L4COUR/PlantVoiceBox#osc-connection)
 
 - UDP er i stand til at overføre flere blokke af data via ethernet forbindelse. 
 - Måden hvorpå data er organiseret sker gennem OSC som et yderligere lag.
@@ -270,7 +268,7 @@ Infrastruktur for at sende data fra BELA til Max/MSP. Se [video demonstration](h
 
 1. Følg guide for at lave et Pd project
 2. Rediger **_main.pd** til at sende data via **netsend** objektet
-![](./media/_main.png)
+![](./media/BELAtoMax_main.png)
 3. Tjek BELA's ip addresse i netværks systemindstillinger er den samme som i **connect** beskeden til **netsend** objektet.
 ![](./media/Netværksindstillinger.png)
 4. lav en Max patcher til at modtage data via **udpreceive** objektet
@@ -282,7 +280,13 @@ Infrastruktur for at sende data fra BELA til Max/MSP. Se [video demonstration](h
 infrastruktur for at sende data fra Max/MSP til BELA
 
 1. Følg guide for at lave et Pd project
-2. Rediger **_main.pd** til at modtage data via **netsend** objektet
+2. Rediger **_main.pd** til at modtage data via **netreceive** objektet
+![](./media/MaxtoBELA_main.png)
+3. Tjek BELA's ip addresse i netværks systemindstillinger er den samme som i **connect** beskeden til **netsend** objektet.
+4. lav en Max patcher til at sende data via **mxj net.tcp.send** objektet
+![](./media/fromMax.png)
+5. Byg et hardware setup med otte analoge output componenter og forbind deres data kabler til analog out pin 0 1 2 3 4 5 6 7 på BELA boardet.
+![](https://learn.bela.io/assets/images/fritzing/pd//analog-output.png)
 
 ## Sources
 
