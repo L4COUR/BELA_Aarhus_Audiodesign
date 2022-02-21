@@ -9,7 +9,7 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 - [Projekter lavet med BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#projekter-lavet-med-bela)
 - [Setup BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#setup-bela)
 - [Voltage Tolerances](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#voltage-tolerances)
-- [BELA Troubleshooting](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#bela-troubleshooting)
+- [BELA Update & Troubleshooting]()
 - [BELA and Pure Data](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#bela-and-pure-data)
 	- [Libpd: Afvikling af Pd på BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#libpd-afvikling-af-pd-p%C3%A5-bela)
 	- [Creating a Pd Project](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#creating-a-pd-project)
@@ -65,10 +65,13 @@ BELA består af 8 kanaler af 16-bit analoge I/O, 16 digitale I/O, Stereo audio I
 
 ## Setup BELA
 
-følg BELA's egen guide til at komme igang [her](https://learn.bela.io/get-started-guide/quick-start/)
+- følg BELA's egen guide til at komme igang [her](https://learn.bela.io/get-started-guide/quick-start/)
+
+- [Running projects on boot](https://learn.bela.io/using-bela/bela-techniques/running-projects-on-boot/)
 
 ### Step 1: Assemble and Plug in your hardware
 
+- Indsæt [SD kort](https://learn.bela.io/using-bela/bela-techniques/managing-your-sd-card/) i BELA boardet
 - Når du har forbundet BELA med computer med USB kabel skal du vente ca. 40 sekunder mens BELA booter op. Når BELA er klar vil dens blå LED blinke i et hjerteslagsbanken.
 - Forbind headphones eller højtaler til BELA's Stereo out connecter med et audio adapter kabel.
 
@@ -113,7 +116,8 @@ Boardet kan også slukkes fra BELA's IDE
 > Advarsel!!!
 > ved anvendelse af digital I/O brug kun 3.3V da dette ellers vil skade BELA boardets CPU. Hver altid opmærksom når du anvender 5V med digitale inputs.
 
-## BELA Troubleshooting
+## BELA Update & Troubleshooting
+- [Updating BELA guide](https://learn.bela.io/using-bela/bela-techniques/updating-bela/)
 - [troubleshooting-guide](https://learn.bela.io/using-bela/about-bela/troubleshooting-guide/)
 
 ## BELA and Pure Data
