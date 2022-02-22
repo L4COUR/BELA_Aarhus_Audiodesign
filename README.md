@@ -283,6 +283,7 @@ Infrastruktur for at sende data fra BELA til Max/MSP. Se [video demonstration](h
 
 ### Max/MSP to BELA
 infrastruktur for at sende data fra Max/MSP til BELA
+Se [video demonstration](https://vimeo.com/680240041)
 
 1. Følg guide for at lave et Pd project
 2. Rediger **_main.pd** til at modtage data via **netreceive** objektet

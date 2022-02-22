@@ -10,8 +10,8 @@
 #X obj 51 78 route /led1 /led2 /led3 /led4 /led5 /led6 /led7 /led8
 /connection;
 #X obj 378 145 print Max PD is connected;
-#X obj 51 134 phasor~ 0.5;
 #X obj 51 49 netreceive 9999;
+#X obj 51 134 phasor~;
 #X connect 1 0 0 1;
 #X connect 2 0 0 2;
 #X connect 3 0 0 3;
@@ -19,7 +19,7 @@
 #X connect 5 0 0 5;
 #X connect 6 0 0 6;
 #X connect 7 0 0 7;
-#X connect 8 0 10 0;
+#X connect 8 0 11 0;
 #X connect 8 1 1 0;
 #X connect 8 2 2 0;
 #X connect 8 3 3 0;
@@ -28,5 +28,5 @@
 #X connect 8 6 6 0;
 #X connect 8 7 7 0;
 #X connect 8 8 9 0;
-#X connect 10 0 0 0;
-#X connect 11 0 8 0;
+#X connect 10 0 8 0;
+#X connect 11 0 0 0;
