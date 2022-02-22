@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 410.0, 109.0, 594.0, 414.0 ],
+		"rect" : [ 752.0, 118.0, 594.0, 414.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,8 +83,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 365.0, 120.0, 22.0 ],
-					"text" : "address 192.168.7.1"
+					"patching_rect" : [ 89.0, 365.0, 118.0, 22.0 ],
+					"text" : "address 192.168.7.2"
 				}
 
 			}
@@ -313,7 +313,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 29.0, 25.0, 125.0, 22.0 ],
 					"restore" : 					{
-						"multislider" : [ 267.698638916015625, 342.109588623046875, 219.397262573242188, 118.410964965820312, 188.136978149414062, 262.356170654296875, 157.013702392578125, 236.02740478515625 ]
+						"multislider" : [ 0.0, 0.0, 0.027397260069847, 0.047945205122232, 0.047945205122232, 0.047945205122232, 0.047945205122232, 0.047945205122232 ]
 					}
 ,
 					"text" : "autopattr interpolation",
@@ -799,7 +799,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 29.0, 60.0, 204.0, 146.0 ],
-					"setminmax" : [ 0.0, 500.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 8,
 					"varname" : "multislider"

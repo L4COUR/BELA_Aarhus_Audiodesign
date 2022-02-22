@@ -274,7 +274,7 @@ Infrastruktur for at sende data fra BELA til Max/MSP. Se [video demonstration](h
 1. Følg guide for at lave et Pd project
 2. Rediger **_main.pd** til at sende data via **netsend** objektet
 ![](./media/BELAtoMax_main.png)
-3. Tjek BELA's ip addresse i netværks systemindstillinger er den samme som i **connect** beskeden til **netsend** objektet.
+3. Idet vi ønsker at kommunikere fra BELA til Max/MSP skal vi bruge "BELA host computer"-ip addresse der altid er 192.168.7.1, og kan findes i netværks systemindstillingerne. indsæt denne Ip i **connect** beskeden til **netsend** objektet.
 ![](./media/Netværksindstillinger.png)
 4. lav en Max patcher til at modtage data via **udpreceive** objektet
 ![](./media/PdtoMax.png)
@@ -287,7 +287,7 @@ infrastruktur for at sende data fra Max/MSP til BELA
 1. Følg guide for at lave et Pd project
 2. Rediger **_main.pd** til at modtage data via **netreceive** objektet
 ![](./media/MaxtoBELA_main.png)
-3. Tjek BELA's ip addresse i netværks systemindstillinger er den samme som i **connect** beskeden til **netsend** objektet.
+	3. Idet vi ønsker at kommunikere fra Max/MSP til BELA skal vi nu bruge "BELA boardets"-ip addresse der altid er 192.168.7.2, sikre dig at denne er indstillet til korrekt i din Max patcher.
 4. lav en Max patcher til at sende data via **mxj net.tcp.send** objektet
 ![](./media/fromMax.png)
 5. Byg et hardware setup med otte analoge output componenter og forbind deres data kabler til analog out pin 0 1 2 3 4 5 6 7 på BELA boardet.
@@ -304,3 +304,4 @@ infrastruktur for at sende data fra Max/MSP til BELA
 - [Miller Puckette Max/MSP & Pure Data](https://futureofcoding.org/episodes/047.html)
 - [UDP & OSC kommunikation](https://frieder-weiss.de/eyecon/Manual/udp-osc.htm)
 - [PdPortNPM.js](https://npm.io/package/port)
+- [BELA basic send receive](https://forum.bela.io/d/498-basic-netsend-netreceive/12)
