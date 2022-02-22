@@ -287,7 +287,7 @@ infrastruktur for at sende data fra Max/MSP til BELA
 1. Følg guide for at lave et Pd project
 2. Rediger **_main.pd** til at modtage data via **netreceive** objektet
 ![](./media/MaxtoBELA_main.png)
-	3. Idet vi ønsker at kommunikere fra Max/MSP til BELA skal vi nu bruge "BELA boardets"-ip addresse der altid er 192.168.7.2, sikre dig at denne er indstillet til korrekt i din Max patcher.
+	3. Idet vi ønsker at kommunikere fra Max/MSP til BELA skal vi nu bruge ["BELA boardets"-ip addresse](https://forum.bela.io/d/498-basic-netsend-netreceive/12) der altid er 192.168.7.2, sikre dig at denne er indstillet til korrekt i din Max patcher.
 4. lav en Max patcher til at sende data via **mxj net.tcp.send** objektet
 ![](./media/fromMax.png)
 5. Byg et hardware setup med otte analoge output componenter og forbind deres data kabler til analog out pin 0 1 2 3 4 5 6 7 på BELA boardet.
