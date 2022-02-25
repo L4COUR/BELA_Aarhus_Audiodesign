@@ -2,7 +2,7 @@
 
 BELA for audiodesign handler om at give studerende på audiodesign kandidaten adgang til at anvende de muligheder BELA boardet giver adgang til, med de forudsætninger man som audiodesigner lære eller har lært gennem kurserne Digital Lyd og Lyd & Interaktion.
 
-### Indhold
+### Setting up BELA
 
 - Grundlæggende forståelse af BELA
 	- [Hvorfor anvende BELA?](https://github.com/L4COUR/BELA_Aarhus_Audiodesign/tree/main#hvorfor-anvende-bela)
@@ -27,6 +27,9 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 	- [BELA to Max/MSP](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#bela-to-maxmsp)
 	- [Max/MSP to BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#maxmsp-to-bela)
 - [Sources](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#sources)
+
+### Workshops
+- [Workshop 1 Analog I/O](./BELA-Workshop-1_AnalogIO.md)
 
 ## Hvorfor anvende BELA?
 
@@ -80,6 +83,15 @@ BELA består af 8 kanaler af 16-bit analoge I/O, 16 digitale I/O, Stereo audio I
 - Indsæt [SD kort](https://learn.bela.io/using-bela/bela-techniques/managing-your-sd-card/) i BELA boardet
 - Når du har forbundet BELA med computer med USB kabel skal du vente ca. 40 sekunder mens BELA booter op. Når BELA er klar vil dens blå LED blinke i et hjerteslagsbanken.
 - Forbind headphones eller højtaler til BELA's Stereo out connecter med et audio adapter kabel.
+
+#### Troubleshooting
+follow BELA's guides on flashing SD cards and booting from SD.
+
+- [BELA wont boot](https://learn.bela.io/get-started-guide/setting-up-your-hardware/#troubleshooting)
+- [Flashing the BELA software](https://learn.bela.io/using-bela/bela-techniques/managing-your-sd-card/)
+	- [Download and install Balena Etcher](https://www.balena.io/etcher/)
+	- [Download the latest Bela software image](https://github.com/BelaPlatform/bela-image-builder/releases/)
+- [Booting Bela from the SD card]()
 
 ### Step 2: Load BELA IDE
 
