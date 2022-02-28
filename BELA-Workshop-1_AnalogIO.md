@@ -30,6 +30,7 @@ I denne workshop anvendes potentiometre og LDR som analoge inputs.
 ![LDR-breadboard](./media/LDRBreadboardCircuit.png)
 
 Alle de kredsløb vi skal bygge sker vha. breadboards
+
 ![](https://components101.com/sites/default/files/component_pin/Breadboard-Pinout.png)
 
 ### Potentiometer til BELA
