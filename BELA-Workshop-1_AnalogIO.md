@@ -93,4 +93,4 @@ I denne workshop anvendes LED som det analoge output.
 
 ![](./BELA-VactrolOSC/VactrolCircuit.png)
 
-- [andre workshops](./readme.md)
+- [andre workshops](./README.md)
