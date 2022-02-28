@@ -89,7 +89,7 @@ I denne workshop anvendes LED som det analoge output.
 
 - Overvej hvordan disse værdier kan bruges i forhold til at lave en oscillator, voice der skal komme ud af BELA's stereo output
 
-![](./BELA-VactrolOSC/BELAVactrolOSCCircuit.png)
+![](./BELA-VactrolOSC/BELAVactrolOscCircuit.png)
 
 ![](./BELA-VactrolOSC/VactrolCircuit.png)
 
