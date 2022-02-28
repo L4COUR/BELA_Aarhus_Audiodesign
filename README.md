@@ -29,7 +29,7 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 - [Sources](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#sources)
 
 ### Workshops
-- [Workshop 1 Analog I/O](./BELA-Workshop-1_AnalogIO.md)
+1. - [Workshop 1 Analog I/O](./BELA-Workshop-1_AnalogIO.md)
 
 ## Hvorfor anvende BELA?
 
