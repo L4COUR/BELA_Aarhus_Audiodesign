@@ -230,7 +230,8 @@ Selvom mange af de objekter der findes i Pd har tilsvarende objekter i Max/MSP, 
 `scp src/*h root@192.168.7.2:/usr/local/include/libpd/`
 
 2. herefter ssh ind i Bela via Terminal/CMD command
-`ssh root@192.168.7.2 mkdir -p Bela/projects/pd-externals`
+`ssh root@192.168.7.2` 
+`mkdir -p Bela/projects/pd-externals`
 
 3. Download [Cyclone v0.3, RC-1 source code](https://github.com/porres/pd-cyclone/archive/cyclone0.3rc1.zip) til din Desktop, idet BELA boardet kører Pd 0.48-2.
 4. uncompress .zip filen på Desktop til en **pd-cyclone-cyclone0.3rc1**
