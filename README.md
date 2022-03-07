@@ -252,7 +252,7 @@ Selvom mange af de objekter der findes i Pd har tilsvarende objekter i Max/MSP, 
 
 ![](https://i.imgur.com/Hr8bFGl.png)
 
-I forhold til yderligere guides til installation af andre externals tjek [BELA's Forum](https://forum.bela.io/d/101-compiling-puredata-externals/100)  
+I forhold til yderligere guides til installation af andre externals tjek [BELA's Forum](https://forum.bela.io/d/101-compiling-puredata-externals/100)  [other externals install](https://forum.bela.io/d/580-compiling-pd-externals-a-guide)
 
 ## BELA and Max/MSP
 ![](./media/BELAMAXMSP.png)
