@@ -30,6 +30,7 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 
 ### Workshops
 1. - [Workshop 1 Analog I/O](./BELA-Workshop-1_AnalogIO.md)
+2. - [Workshop 2 Digital I/O](./BELA-Workshop-2_DigitalIO.md)
 
 ## Hvorfor anvende BELA?
 
@@ -223,10 +224,15 @@ for at kunne anvende abstractions skal der laves et Pd projekt kaldet **pd-exter
 Selvom mange af de objekter der findes i Pd har tilsvarende objekter i Max/MSP, så er der mange objekter fra Max/MSP der ikke har tilsvarende objekter i Pd. Pure Data librariet [cyclone](https://github.com/porres/pd-cyclone) indeholder Pd versioner af Max/MSP objekter der gør det nemmere for audiodesignerne at udnytte deres erfaring fra tidligere fag.  
 
 ### Installation af Cyclone på BELA
+- [Se video tutorial her](https://vimeo.com/685683375)
 
 1. Opret **pd-externals** folder på BELA, og downloade følgende filer der er nødvendige for at kunne compile cyclone på Bela via følgende Terminal/CMD commands
 `git clone https://github.com/giuliomoro/pure-data &&\`
 `cd pure-data &&\`
+`scp src/*h root@192.168.7.2:/usr/local/include/libpd/`
+______
+getting all of the .h files from the src/ folder located on desktop. Copying the .h files to your board /usr/local/indlude/libpd/ then run make commands
+download entir BELA-pd folder, put src folder on desktop. then copy all .h files from the src to BELA's /usr/local/indlude/ 
 `scp src/*h root@192.168.7.2:/usr/local/include/libpd/`
 
 2. herefter ssh ind i Bela via Terminal/CMD command
