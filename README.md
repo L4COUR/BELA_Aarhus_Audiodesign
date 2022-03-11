@@ -31,6 +31,7 @@ BELA for audiodesign handler om at give studerende på audiodesign kandidaten ad
 ### Workshops
 1. - [Workshop 1 Analog I/O](./BELA-Workshop-1_AnalogIO.md)
 2. - [Workshop 2 Digital I/O](./BELA-Workshop-2_DigitalIO.md)
+3. - [Workshop 3 Machine listening](./BELA-Workshop-3_MachineListening.md)
 
 ## Hvorfor anvende BELA?
 
